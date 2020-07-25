@@ -1,0 +1,114 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #FFFFFF;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.navbar-brand a {
+    font-family: fantasy;
+    color: #000000;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+
+}
+
+li {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.menu-item {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+    display: block;
+}
+
+.titulo {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #0000;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    margin 20px;
+}
+
+.box {
+    margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+    padding: 20px;
+    background-color: #999999;
+}
+.categoria{
+    text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+
+    .content-name {
+        margin-right: 30px;
+    }
+}
